@@ -1,0 +1,14 @@
+<div style="font-family: sans-serif;">
+  <? var data = getDisplayValues(); ?>
+  <form id="form" name="form">
+    <? if(Object.prototype.toString.call(data) === '[object Array]') { ?>
+      <? for (var i = 0; i < data.length; i++) { ?>
+        <input type="checkbox" id="ch<?= '' + i ?>" name="ch<?= '' + i ?>" value="<?= data[i] ?>"><?= data[i] ?><br>
+      <? } ?>
+    <? } else { ?>
+      <p>Values cannot be evaluated. Are you using a named range?</p>
+    <? } ?>
+    <input type="button" value="Select" onclick="google.script.run.fillCell(this.parentNode)" />
+    <input type="button" value="Refresh" onclick="google.script.run.showDialog()" />
+  </form>
+</div>
