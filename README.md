@@ -28,6 +28,6 @@ I use this script to add certain bonuses to my skill checks while playing a role
   * This script will work on multiple cells for any number of named ranges; 1 range per cell. 
   * Once the sidebar is open, you can choose any cell that has been set up with a named range and a note and hit the `Refresh` button. The script will restart for that cell.
   * To zero out the sum, run the script on the cell and hit `Submit` without choosing any values.
-  * And example spreadsheet can be found at [https://docs.google.com/spreadsheets/d/1zEEsUKjWleupO67kMkqgsgCslbQrWm_IISgUYqjjI1U/edit?usp=sharing]
+  * And example spreadsheet can be found at https://docs.google.com/spreadsheets/d/1zEEsUKjWleupO67kMkqgsgCslbQrWm_IISgUYqjjI1U/edit?usp=sharing
   
   I welcome feedback and comments.
